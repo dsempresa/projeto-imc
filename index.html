@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projeto 01 - IMC</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <img src="img/calculo-imc.jpg.webp" alt="Minha Figura" id="logo">
+  <section class="container">
+    <h2>Calcule seu IMC</h2>
+    <form class="form" action="" method="GET">
+      <label for="nome">Nome</label>
+      <input type="text" class="nome" name="nome" required>
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" class="sobrenome" name="sobrenome" required>
+      <label for="peso">Peso</label>
+      <input type="number" class="peso" name="peso" required>
+      <label for="altura">Altura</label>
+      <input type="number" class="altura" name="altura" required>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="resultado"></div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
